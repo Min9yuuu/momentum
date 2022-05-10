@@ -8,34 +8,47 @@
   <title>Momentum App</title>
 </head>
 <body>
-  <!-- clock -->
-  <h2 id="clock">00:00:00</h2>
 
-  <!-- log-in -->
-  <form id="login-form" class="hidden">
-    <input required maxlength="15" type="text" placeholder="What is your name?" />
-    <input type="submit" value="Log In"/>
-  </form>
-  <h1 id="greeting" class="hidden"></h1>
+  <!-- header -->
+  <header>
 
-  <!-- todo list -->
-  <form id="todo-form">
-    <input type="text" placeholder="Write a To Do and Press Enter" required />
-  </form>
-  <ul id="todo-list"></ul>
+    <!-- weather -->
 
-  <!-- quote -->
-  <div id="quote">
-    <span></span>
-    <span></span>
-  </div>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
 
-  <!-- weather -->
+  </header>
 
-  <div id="weather">
-    <span></span>
-    <span></span>
-  </div>
+  <main>
+    <!-- clock -->
+    <h2 id="clock">00:00:00</h2>
+    
+    <!-- log-in -->
+    <form id="login-form" class="hidden">
+      <input required maxlength="15" type="text" placeholder="What is your name?" />
+      <input type="submit" value="Log In" />
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    
+    <!-- todo list -->
+    <form id="todo-form">
+      <input type="text" placeholder="Write a To Do and Press Enter" required size="30" />
+    </form>
+    <ul id="todo-list"></ul>
+  </main>
+  
+  <footer>
+      <!-- quote -->
+      <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
+  </footer>
+
+
+  
 
   <!-- script -->
   <script src="js/login.js"></script>

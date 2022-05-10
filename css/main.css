@@ -1,0 +1,53 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+#clock {
+  font-size: 8em;
+}
+
+#login-form input,
+#todo-form input {
+  color: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: transparent;
+  opacity: 0.6;
+}
+#login-form input {
+  font-size: 1.5em;
+}
+
+#login-form input:last-child {
+  color: red;
+}
+
+#todo-form input::placeholder {
+  text-align: center;
+}
+#todo-form input {
+  font-size: 2em;
+}
+
+#greeting {
+  font-size: 3em;
+  opacity: 0.6;
+}
+
+#todo-list {
+  margin-top: 10px;
+}
+
+#todo-list button {
+  background-color: transparent;
+  border: none;
+}
+#todo-list li span {
+  font-size: 2em;
+  opacity: 0.6;
+}
